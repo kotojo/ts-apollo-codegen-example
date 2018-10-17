@@ -1,0 +1,14 @@
+{
+  "name": "graphql-codegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "graphql": "^14.0.2",
+    "graphql-code-generator": "^0.12.6",
+    "graphql-codegen-typescript-react-apollo-template": "^0.12.6"
+  },
+  "scripts": {
+    "ggen": " gql-gen --schema './schema/**/*.graphql' --template graphql-codegen-typescript-react-apollo-template --out ./generated-models.tsx './src/**/*.graphql'"
+  }
+}

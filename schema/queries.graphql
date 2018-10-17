@@ -1,0 +1,6 @@
+type Query {
+  hobby(id: Int!): Hobby!
+  hobbies: [Hobby]!
+  person(id: Int!): Person!
+  people: [Person]!
+}

@@ -1,0 +1,12 @@
+query PersonQuery($id: Int!) {
+  person(id: $id) {
+    id
+    name
+    age
+    hobbies {
+      id
+      name
+      description
+    }
+  }
+}

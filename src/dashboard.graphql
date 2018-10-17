@@ -1,0 +1,6 @@
+query DashboardQuery {
+  people {
+    id
+    name
+  }
+}
